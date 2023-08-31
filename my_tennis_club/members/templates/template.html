@@ -1,0 +1,45 @@
+{% extends "master.html" %}
+
+{% block title %} Testing Template {% endblock %}
+
+{% block content %}
+
+        <h1>This is Members objects as python dictionary, <i> with .values()</i></h1>
+        {{values}}
+
+        <h1>Extracting one column only, <i> with .value_list('firstname')</i></h1>
+        {{firstnames}}
+
+        <h1>This is Members objects as QuerySet</h1>
+        {{members}}
+
+        <h1>Filtered Data</h1>
+        {{ordata}}
+
+        <h1>all data</h1>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+            {% for m in members %}
+                <tr>
+                    <td>{{m.id}}</td>
+                    <td>{{m.firstname}}</td>
+                    <td>{{m.lastname}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        {% for x in fruits %}
+            <h1>{{x}}</h1>
+        {% endfor %}
+
+        {% with firstName="Mahmoud" %}
+        <h1>Hello {{firstName}}! How are you doing today?</h1>
+        {% endwith %}
+
+        <p>In views.py you can see what the fruits variable looks like.</p>
+
+{% endblock %}

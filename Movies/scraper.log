@@ -1,0 +1,41 @@
+30-Aug-23 15:46 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py", line 21, in movies_list
+    return render(request, 'movies_list.html', moviesObj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+30-Aug-23 15:46 - Not Found: /favicon.ico
+30-Aug-23 15:52 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:52 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:53 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:53 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:54 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:54 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:54 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:54 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:54 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:55 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:55 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:55 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:55 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:55 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:55 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+30-Aug-23 15:55 - C:\Users\abdulhamid.abbad\Documents\Programming\myworld\Movies\MoviesList\views.py changed, reloading.
+31-Aug-23 15:38 - Not Found: /favicon.ico
